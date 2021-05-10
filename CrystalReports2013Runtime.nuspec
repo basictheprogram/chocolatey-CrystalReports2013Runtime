@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>CrystalReports2013Runtime</id>
+    <version>13.0.14.1720</version>
+    <packageSourceUrl>https://github.com/basictheprogram/CrystalReports2013Runtime</packageSourceUrl>
+    <owners>basictheprogram</owners>
+    <title>SAP Crystal Reports 2013 SP12 Runtime</title>
+    <authors>SAP</authors>
+    <projectUrl>https://origin.softwaredownloads.sap.com/public/site/index.html</projectUrl>
+    <iconUrl>https://basictheprogram.github.io/chocolatey-CrystalReports2013Runtime/icons/CrystalReports2013Runtime.png</iconUrl>
+    <copyright>https://assets.cdn.sap.com/sapcom/docs/2015/07/368edae4-597c-0010-82c7-eda71af511fa.pdf</copyright>
+    <licenseUrl>https://www.crystalreports.com/faq/#lp-pom-block-1000</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://help.sap.com/doc/businessobject_product_guides_cr2013_en_cr13_cr_usergde_en_pdf/2013/en-US/cr13_cr_usergde_en.pdf</docsUrl>
+    <releaseNotes>https://help.sap.com/viewer/product/SAP_CRYSTAL_REPORTS,_DEVELOPER_VERSION_FOR_MICROSOFT_VISUAL_STUDIO/SP21/en-US</releaseNotes>
+    <bugTrackerUrl>https://github.com/basicthprogram/CrystalReports2013Runtime/issues</bugTrackerUrl>
+    <tags>Crystal Reports SAP CrystalReports .NET admin</tags>
+    <summary>Crystal Reports 2013 Runtime</summary>
+    <description>
+        * SAP Crystal Reports allows a report designer to bring data in from various sources
+        to create a document where the data is formatted into a design of their choosing,
+        such as an invoice, sales or operational report, marketing letter or some sort of
+        analytic.
+
+        * SAP Crystal Server provides a platform through which you can share documents (such
+        as SAP Crystal Reports files) with end users. With SAP Crystal Server you can schedule
+        reports to be pushed out to recipients as PDF email attachments, or access the reports
+        securely and refresh the data entering parameters using a browser or mobile app
+        (download the free app from Apple App Store: https://apps.apple.com/us/app/sap-businessobjects-mobile/id441208302
+        or from Google Play: https://play.google.com/store/apps/details?id=com.sap.mobi).
+
+        * SAP Crystal Reports for Visual Studio and SAP Crystal Reports for Eclipse are free add-ons
+        for developers using .NET and Java respectively to embed reporting capabilities into their
+        applications.
+
+        * SAP Crystal Reports Viewer is a free desktop application (Windows or Mac) allowing
+        recipients of SAP Crystal Reports files (.rpt file extension) to open the document and
+        interact with the data saved with the file, including search, drill-down, print and
+        export – but not refresh.
+
+        * SAP Crystal Reports for Enterprise is an edition of report designer which uses a meta
+        layer for data sources (a universe) for report design. The software for SAP Crystal Reports
+        for Enterprise is included with SAP Crystal Server, Edge or BOE and the installation
+        requires a SAP Crystal Reports keycode of the same version as the BI Platform (see table
+        for version information).
+
+        * SAP Crystal Reports for SAP Business One allows users of SAP Business One to create
+        pixel perfect reports and dashboards by connecting exclusively the SAP Business One
+        data model with the SAP Crystal Reports environment. You can launch SAP Crystal reports
+        and dashboards directly from SAP Business One. If you want to connect to additional data
+        sources including SAP Business One data sources, you will need to acquire SAP Crystal
+        Reports 2020.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
