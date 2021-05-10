@@ -14,4 +14,3 @@ $params = @{
 }
 
 Install-ChocolateyPackage @params
-
