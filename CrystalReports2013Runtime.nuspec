@@ -5,7 +5,7 @@
     <version>13.0.14.1720</version>
     <packageSourceUrl>https://github.com/basictheprogram/CrystalReports2013Runtime</packageSourceUrl>
     <owners>basictheprogram</owners>
-    <title>SAP Crystal Reports 2013 SP12 Runtime</title>
+    <title>SAP Crystal Reports Runtime 2013</title>
     <authors>SAP</authors>
     <projectUrl>https://origin.softwaredownloads.sap.com/public/site/index.html</projectUrl>
     <iconUrl>https://basictheprogram.github.io/chocolatey-CrystalReports2013Runtime/icons/CrystalReports2013Runtime.png</iconUrl>
@@ -16,7 +16,7 @@
     <releaseNotes>https://help.sap.com/viewer/product/SAP_CRYSTAL_REPORTS,_DEVELOPER_VERSION_FOR_MICROSOFT_VISUAL_STUDIO/SP21/en-US</releaseNotes>
     <bugTrackerUrl>https://github.com/basicthprogram/CrystalReports2013Runtime/issues</bugTrackerUrl>
     <tags>Crystal Reports SAP CrystalReports .NET admin</tags>
-    <summary>Crystal Reports 2013 Runtime</summary>
+    <summary>Crystal Reports Runtime 2013</summary>
     <description>
         * SAP Crystal Reports allows a report designer to bring data in from various sources
         to create a document where the data is formatted into a design of their choosing,
