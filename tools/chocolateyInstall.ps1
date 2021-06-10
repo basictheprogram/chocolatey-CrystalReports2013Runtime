@@ -1,16 +1,16 @@
 $ErrorActionPreference = 'Stop';
 
+$data = & (Join-Path -Path (Split-Path -Path $MyInvocation.MyCommand.Path) -ChildPath data.ps1)
 $package = 'CrystalReports2013Runtime'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $params = @{
-    packageName  = $package;
-    fileType     = 'msi';
-    silentArgs   = '/quiet';
-    url          = 'http://gold-images.int.celadonsystems.com/SYSPRO/CrystalRuntimes/CRRuntime_32bit_13_0_14.msi';
-
-    checksum     = '26196e58f9563cf58424530a72c58f6a33b6a15c06dff81027d5990cab7f3f28';
-    checksumType = 'sha256';
+    packageName  = $package
+    fileType     = 'msi'
+    silentArgs   = '/quiet'
+    url          = $data.url
+    checksum     = $data.checksum
+    checksumType = $data.checksumType
 }
 
 Install-ChocolateyPackage @params
